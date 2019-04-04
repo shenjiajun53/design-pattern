@@ -9,7 +9,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  */
 @Configuration
 @EnableAspectJAutoProxy()
-@ComponentScan("com.huntun.pattern.aop")
+@ComponentScan("com.huntun.proxy.aop")
 public class AopConfig {
 //    @Bean
 //    public Audience audience() {

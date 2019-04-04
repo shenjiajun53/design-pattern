@@ -1,4 +1,4 @@
-package com.huntun.proxy.aop;
+package com.huntun.proxy.aop.ht.lib;
 
 import java.lang.annotation.*;
 
@@ -8,5 +8,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Target(ElementType.METHOD)
-public @interface Before {
+public @interface HTBefore {
+    String className();
+    String methodName();
 }

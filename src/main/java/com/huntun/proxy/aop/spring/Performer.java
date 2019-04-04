@@ -8,8 +8,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class Performer {
 
-
-
     public void perform() {
         System.out.println("表演节目");
     }
